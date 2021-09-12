@@ -1,2 +1,447 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE HTML5>
+<head>
+  <title>Iconic Poems</title>
+  <style>
+  h1 {color: green;
+    text-align: center;
+    text-size: 80px;}
+
+    p {
+      font-size: 20px;
+      text-align: center;}
+
+      #firstpara {
+        font-family: 'Courier New';
+        color: green;
+        text-align: center;}
+
+        .poem-title {
+          color: red;
+          font-family: 'Times New Roman';
+          text-align: center;
+          font-size: 40px;}
+
+          .poem-text {
+            color: black;
+            font-family: 'cursive';
+            font-size: 20px;
+            text-align: center;}
+
+            body {
+              background-color: rgb(255, 227, 176);}
+
+              #poem-directory {
+                text-align: center;}
+
+                .image {
+                  display:block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  animation-duration: 3s;
+                  animation-name: cool-img;
+                  animation-iteration-count: infinite;}
+
+                  .small-image {
+                    display:block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 20%; }
+
+                  #poem-box {
+                    background-color: rgb(202, 214, 146);
+                    justify-content: center;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    text-align: center;
+                    width: 30%;
+                    margin:auto;
+                    border-style: double;
+                    border-color: green;
+                    border-width: medium;
+                    border-radius: 50px;
+
+                  }
+
+                  .container {
+                    width: 80%
+                    margin: 0 auto;
+
+                  }
+
+                  header {
+                    background: #55d6aa;
+                    position: fixed;
+                    width: 100%;
+                  }
+
+                  header::after {
+                    content: '';
+                    display: table;
+                    clear: both;
+
+                  }
+
+                  nav {
+
+                    overflow: hidden;
+                    top: 0;
+                    width: 100%;
+                    postion: fixed;
+                    float: top;
+
+                  }
+
+                  nav ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    float: top;
+
+                  }
+
+                  nav li {
+                    display:block;
+                    float: right;
+                    padding-top: 0px;
+                    margin-top: 0px;
+                    margin-right: 80px;
+                    float: top;
+
+                  }
+
+                  .logo {
+                    float: left;
+                    width: 140px;
+                    height: 40px;
+                    animation: logo 3s linear infinite;
+                    perspective: 800px;
+                    border-radius: 50%;
+                    padding-bottom: 0px;
+                    margin-bottom: 0px;
+                    margin-left: 10px;
+
+                  }
+
+
+                  nav a {
+                    color: grey;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    float: right;
+                    text-align: center;
+                    float: top;
+
+                  }
+
+                  nav a:hover {
+                    color: black;
+                    animation-name: test;
+                    animation-duration: 3s;
+
+                  }
+
+                  .colorful-title {
+                    animation-name: colorful;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+                  }
+
+                  @keyframes test {
+                  0% {font-size: 16px;}
+                  20% {font-size: 17px;}
+
+
+                  }
+
+                  @keyframes colorful {
+                    0% {color: black;}
+                    20% {color: red;}
+                    40% {color: green;}
+                    60% {color: yellow;}
+                    80% {color: blue;}
+
+                  }
+
+
+
+                                    @keyframes cool-img {
+                                      0%: {width: 10%;}
+
+                                      50% {width: 20%;
+                                      }}
+
+                  @keyframes logo {
+                    from {transform: rotateY(0deg);}
+                    to {transform: rotateY(360deg);}
+                  }
+
+                  </style>
+                </head>
+
+                <body>
+                  <header>
+
+
+                    <img src='https://www.coolgenerator.com/Data/Textdesign/202109/587fa9ba4fb2f8ff1025798d4c361328.png' alt=logo class='logo'>
+                    <div class='container'>
+
+
+                      <nav>
+                        <ul>
+                          <li><a href="login.html">Login</a></li>
+                          <li><a href="Poems.html">Poems</a></li>
+                          <li><a href="Books.html">Books</a></li>
+                          <li><a href="Songs.html">Songs</a></li>
+                          <li><a href="home.html">Home</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </header>
+                  <br><br><br><br>
+<h1 class=colorful-title id='home'><strong>The World's Most <em>Iconic<em> Poems!</h1><br>
+                  <hr>
+                    <img class='image' src='https://media.newyorker.com/photos/5df7f4edeb8d9200088c0e97/2:1/w_1200,h_599,c_limit/2019-tny-poetry.gif' alt='***Poems GIF***' width=350px height=200px>
+
+                    <p id=firstpara>This is a website containing some of the most <em>iconic<em> poems from all around the world.</p>
+                      <div id='poem-box'>
+                        <ul id='poem-directory'>
+
+                          <li><a href='#the-red-wheelbarrow'> The Red Wheelbarrow </a></li><br>
+                          <li><a href='#one-art'> One Art </a></li><br>
+                          <li><a href='#the-road-not-taken'> The Road Not Taken </a></li><br>
+                          <li><a href='#i-could-not-stop-for-death'> I Could Not Stop For Death </a></li><br>
+                          <li><a href='#daddy'> Daddy </a></li><br>
+                        </ul>
+                      </div>
+
+                      <h2 id='the-red-wheelbarrow' class= 'poem-title'><br><br>The Red Wheelbarrow </h2>
+                      <p class= 'poem-text'>
+                        By William Carlos Williams <br> <br>
+                        so much depends <br>
+                        upon <br><br>
+
+                        a red wheel <br>
+                        barrow <br><br>
+
+                        glazed with rain <br>
+                        water <br><br>
+
+                        beside the white <br>
+                        chickens<br><br>
+
+                        <img class= 'small-image' src='https://s100.iracing.com/wp-content/uploads/2016/10/wheelbarrow-clipart-red-wheelbarrow.png' alt='***image of a red wheelbarrow***'><br><br>
+
+                        <a href=#home>GO HOME </a></p>
+
+
+                        <h2 id='one-art' class= 'poem-title'><br><br>One Art </h2>
+                        <p class= 'poem-text'>
+                          By Elizabeth Bishop <br> <br>
+                          The art of losing isn’t hard to master; <br>
+                          so many things seem filled with the intent <br>
+                          to be lost that their loss is no disaster. <br> <br>
+
+                          Lose something every day. Accept the fluster <br>
+                          of lost door keys, the hour badly spent. <br>
+                          The art of losing isn’t hard to master. <br> <br>
+
+                          Then practice losing farther, losing faster: <br>
+                          places, and names, and where it was you meant <br>
+                          to travel. None of these will bring disaster. <br> <br>
+
+                          I lost my mother’s watch. And look! my last, or <br>
+                          next-to-last, of three loved houses went. <br>
+                          The art of losing isn’t hard to master. <br> <br>
+
+                          I lost two cities, lovely ones. And, vaster, <br>
+                          some realms I owned, two rivers, a continent. <br>
+                          I miss them, but it wasn’t a disaster. <br> <br>
+
+                          —Even losing you (the joking voice, a gesture <br>
+                          I love) I shan’t have lied. It’s evident <br>
+                          the art of losing’s not too hard to master <br>
+                          though it may look like (Write it!) like disaster. <br> <br>
+
+                          <img class= 'small-image' src= 'https://lh3.googleusercontent.com/proxy/EK4rFM3nMXMp3BrguHJxivvvtx4zbLt0tb6LtvHGaeuColQNQ-At7XZga4HxBIX7vkRf6I4gJw6CXMPXo9tSXp_M' alt= '***image of a paint pallete***'><br><br>
+
+                          <a href=#home>GO HOME </a>
+
+                        </p>
+
+                        <h2 id='the-road-not-taken' class= 'poem-title'><br><br>The Road Not Taken</h2>
+                        <p class= 'poem-text'>By Robert Frost <br><br>
+                          Two roads diverged in a yellow wood, <br>
+                          And sorry I could not travel both <br>
+                          And be one traveler, long I stood <br>
+                          And looked down one as far as I could <br>
+                          To where it bent in the undergrowth; <br> <br>
+
+                          Then took the other, as just as fair, <br>
+                          And having perhaps the better claim, <br>
+                          Because it was grassy and wanted wear; <br>
+                          Though as for that the passing there <br>
+                          Had worn them really about the same, <br> <br>
+
+                          And both that morning equally lay <br>
+                          In leaves no step had trodden black. <br>
+                          Oh, I kept the first for another day! <br>
+                          Yet knowing how way leads on to way, <br>
+                          I doubted if I should ever come back. <br> <br>
+
+                          I shall be telling this with a sigh <br>
+                          Somewhere ages and ages hence: <br>
+                          Two roads diverged in a wood, and I— <br>
+                          I took the one less traveled by, <br>
+                          And that has made all the difference.<br><br>
+
+                          <img class='small-image' src='https://www.freepnglogos.com/uploads/road-png/road-frontline-sodera-4.png' alt='***image of a road***'><br><br>
+
+                          <a href=#home>GO HOME </a></p>
+
+
+                          <h2 id='i-could-not-stop-for-death' class= 'poem-title'><br><br>Because I could not stop for Death</h2>
+                          <p class= 'poem-text'>
+                            By Emily Dickinson <br> <br>
+                            Because I could not stop for Death – <br>
+                            He kindly stopped for me – <br>
+                            The Carriage held but just Ourselves – <br>
+                            And Immortality. <br> <br>
+
+                            We slowly drove – He knew no haste <br>
+                            And I had put away <br>
+                            My labor and my leisure too, <br>
+                            For His Civility – <br> <br>
+
+                            We passed the School, where Children strove <br>
+                            At Recess – in the Ring – <br>
+                            We passed the Fields of Gazing Grain – <br>
+                            We passed the Setting Sun – <br> <br>
+
+                            Or rather – He passed Us – <br>
+                            The Dews drew quivering and Chill – <br>
+                            For only Gossamer, my Gown – <br>
+                            My Tippet – only Tulle – <br> <br>
+
+                            We paused before a House that seemed <br>
+                            A Swelling of the Ground – <br>
+                            The Roof was scarcely visible – <br>
+                            The Cornice – in the Ground – <br> <br>
+
+                            Since then – 'tis Centuries – and yet <br>
+                            Feels shorter than the Day <br>
+                            I first surmised the Horses' Heads <br>
+                            Were toward Eternity – <br><br>
+
+                            <img class= 'small-image' src='https://www.freepnglogos.com/uploads/death-png/skull-crossbones-skeleton-death-svg-png-icon-download-12.png' alt='***image of skull and crossbones***'> <br><br>
+                            <a href=#home>GO HOME </a>
+
+
+                          </p>
+
+                          <h2 id='daddy' class= 'poem-title'><br><br>Daddy</h2>
+                          <p class= 'poem-text'>
+                            By Sylvia Plath <br> <br>
+                            You do not do, you do not do    <br>
+                            Any more, black shoe <br>
+                            In which I have lived like a foot   <br>
+                            For thirty years, poor and white,    <br>
+                            Barely daring to breathe or Achoo. <br> <br>
+
+                            Daddy, I have had to kill you.    <br>
+                            You died before I had time—— <br>
+                            Marble-heavy, a bag full of God,    <br>
+                            Ghastly statue with one gray toe    <br>
+                            Big as a Frisco seal <br> <br>
+
+                            And a head in the freakish Atlantic    <br>
+                            Where it pours bean green over blue    <br>
+                            In the waters off beautiful Nauset.    <br>
+                            I used to pray to recover you. <br>
+                            Ach, du. <br> <br>
+
+                            In the German tongue, in the Polish town    <br>
+                            Scraped flat by the roller <br>
+                            Of wars, wars, wars. <br>
+                            But the name of the town is common.   <br>
+                            My Polack friend <br> <br>
+
+                            Says there are a dozen or two.   <br>
+                            So I never could tell where you   <br>
+                            Put your foot, your root, <br>
+                            I never could talk to you. <br>
+                            The tongue stuck in my jaw. <br> <br>
+
+                            It stuck in a barb wire snare.  <br>
+                            Ich, ich, ich, ich, <br>
+                            I could hardly speak. <br>
+                            I thought every German was you.    <br>
+                            And the language obscene <br> <br>
+
+                            An engine, an engine <br>
+                            Chuffing me off like a Jew. <br>
+                            A Jew to Dachau, Auschwitz, Belsen.    <br>
+                            I began to talk like a Jew. <br>
+                            I think I may well be a Jew. <br> <br>
+
+                            The snows of the Tyrol, the clear beer of Vienna    <br>
+                            Are not very pure or true. <br>
+                            With my gipsy ancestress and my weird luck    <br>
+                            And my Taroc pack and my Taroc pack <br>
+                            I may be a bit of a Jew. <br> <br>
+
+                            I have always been scared of you, <br>
+                            With your Luftwaffe, your gobbledygoo.    <br>
+                            And your neat mustache <br>
+                            And your Aryan eye, bright blue. <br>
+                            Panzer-man, panzer-man, O You—— <br> <br>
+
+                            Not God but a swastika <br>
+                            So black no sky could squeak through.    <br>
+                            Every woman adores a Fascist,    <br>
+                            The boot in the face, the brute    <br>
+                            Brute heart of a brute like you. <br> <br>
+
+                            You stand at the blackboard, daddy,    <br>
+                            In the picture I have of you, <br>
+                            A cleft in your chin instead of your foot    <br>
+                            But no less a devil for that, no not    <br>
+                            Any less the black man who <br> <br>
+
+                            Bit my pretty red heart in two. <br>
+                            I was ten when they buried you.    <br>
+                            At twenty I tried to die <br>
+                            And get back, back, back to you. <br>
+                            I thought even the bones would do. <br> <br>
+
+                            But they pulled me out of the sack,   <br>
+                            And they stuck me together with glue.    <br>
+                            And then I knew what to do. <br>
+                            I made a model of you, <br>
+                            A man in black with a Meinkampf look <br> <br>
+
+                            And a love of the rack and the screw.    <br>
+                            And I said I do, I do. <br>
+                            So daddy, I’m finally through. <br>
+                            The black telephone’s off at the root,    <br>
+                            The voices just can’t worm through. <br> <br>
+
+                            If I’ve killed one man, I’ve killed two—— <br>
+                            The vampire who said he was you    <br>
+                            And drank my blood for a year, <br>
+                            Seven years, if you want to know. <br>
+                            Daddy, you can lie back now. <br> <br>
+
+                            There’s a stake in your fat black heart    <br>
+                            And the villagers never liked you. <br>
+                            They are dancing and stamping on you.    <br>
+                            They always knew it was you. <br>
+                            Daddy, daddy, you bastard, I’m through.<br><br>
+
+                            <img class='small-image' src='https://www.pngall.com/wp-content/uploads/5/Super-Dad-PNG-Free-Download.png' alt= '***image of a dad with his kids***' <br><br>
+
+                            <a href=#home>GO HOME </a></p>
+
+
+
+
+                          </body>
