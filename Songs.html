@@ -79,60 +79,72 @@
                     display: table;
                     clear: both;
 
+                    }
+
+                  .logo {
+                    margin: 0;
+                    padding: 3px;
+                    float: left;
+                    width: 200px;
+                    height: 50px;
+                    color: black;
+                    font-style: italic;
+                    font-family: fantasy;
+                    animation-name: logo;
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+
+
                   }
 
                   nav {
-
-                    overflow: hidden;
-                    top: 0;
-                    width: 100%;
-                    postion: fixed;
-
+                    float: right;
                   }
 
-                  nav ul {
+                  nav ol {
                     margin: 0;
                     padding: 0;
                     list-style: none;
-
                   }
 
                   nav li {
-                    display:block;
-                    float: right;
-                    padding-top: 0px;
-                    margin-top: 0px;
-                    margin-right: 80px
-
-                  }
-
-                  .logo {
-                    float: left;
-                    width: 140px;
-                    height: 40px;
-                    animation: logo 3s linear infinite;
-                    perspective: 800px;
-                    border-radius: 50%;
+                    font-size: 20px;
+                    font-family: cursive;
+                    display: inline-block;
+                    margin: 0 40px;
+                    padding-top: 2px;
                     padding-bottom: 0px;
-                    margin-bottom: 0px;
-                    margin-left: 10px;
 
+                    position: relative;
                   }
-
 
                   nav a {
-                    color: grey;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    float: right;
                     text-align: center;
-
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
                   }
 
                   nav a:hover {
                     color: black;
-                    animation-name: test;
-                    animation-duration: 3s;
+
+                  }
+
+                  nav a::before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    background-color: black;
+                    position: absolute;
+                    top: -12;
+                    width: 0%;
+                    transition: all ease-in-out 180ms;
+                  }
+
+                  nav a:hover::before {
+                    width: 100%;
+
+                  }
 
                   }
 
@@ -194,9 +206,18 @@
                     </div>
                   </header>
                   <br><br><br><br>
-<h1 class=colorful-title id='home'><strong>The World's Most <em>Iconic<em> SONGS!</h1><br>
+<h1 class=colorful-title id='home'><strong>The World's Most <em>Iconic<em> Poems!</h1><br>
                   <hr>
+                    <img class='image' src='https://media.newyorker.com/photos/5df7f4edeb8d9200088c0e97/2:1/w_1200,h_599,c_limit/2019-tny-poetry.gif' alt='***Poems GIF***' width=350px height=200px>
 
-  
-  </body>
-  </html>
+                    <p id=firstpara>This is a website containing some of the most <em>iconic<em> poems from all around the world.</p>
+                      <div id='poem-box'>
+                        <ul id='poem-directory'>
+
+                          <li><a href='#the-red-wheelbarrow'> The Red Wheelbarrow </a></li><br>
+                          <li><a href='#one-art'> One Art </a></li><br>
+                          <li><a href='#the-road-not-taken'> The Road Not Taken </a></li><br>
+                          <li><a href='#i-could-not-stop-for-death'> I Could Not Stop For Death </a></li><br>
+                          <li><a href='#daddy'> Daddy </a></li><br>
+                        </ul>
+                      </div>
